@@ -1,6 +1,6 @@
-y=input()
+i=input()
 count=0
-for c in y:
-  if c.isnumeric():
+for k in i:
+  if k.isnumeric():
      count=count+1
 print(count)     
